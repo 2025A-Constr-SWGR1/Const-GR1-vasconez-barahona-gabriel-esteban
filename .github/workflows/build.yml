@@ -19,3 +19,8 @@ jobs:
         working-directory: ./calculadora
         run: |
           npm run build
+      - name: Test y Lint
+        working-directory: ./calculadora
+        run: |
+          npm run test
+          npm run lint
