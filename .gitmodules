@@ -1,0 +1,6 @@
+[submodule "examen-2b/calc-backend/submodules/david-division"]
+	path = examen-2b/calc-backend/submodules/david-division
+	url = https://github.com/2025A-Constr-SWGR1/Const-GR2-valencia-campoverde-david.git
+[submodule "examen-2b/calc-backend/submodules/ronny-resta"]
+	path = examen-2b/calc-backend/submodules/ronny-resta
+	url = https://github.com/2025A-Constr-SWGR1/Const-GR1-cartagena-toaquiza-ronny-damian.git
