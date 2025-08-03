@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <h1>Calculadora Nest.js</h1>
+
+    <input type="number" id="a" placeholder="Número A" />
+    <input type="number" id="b" placeholder="Número B" />
+
+    <button onclick="operar('sumar')">Sumar</button>
+    <button onclick="operar('restar')">Restar</button>
+    <button onclick="operar('multiplicar')">Multiplicar</button>
+    <button onclick="operar('dividir')">Dividir</button>
+
+    <h2 id="resultado">Resultado:</h2>
+
+    <script>
+        async function operar(tipo) {
+            const a = document.getElementById('a').value;
+            const b = document.getElementById('b').value;
+            const res = await fetch(`http://localhost:3000/calc/${tipo}?a=${a}&b=${b}`);
+            const data = await res.json();
+            document.getElementById('resultado').textContent = 'Resultado: ' + data.resultado;
+        }
+    </script>
+</body>
+
+</html>
