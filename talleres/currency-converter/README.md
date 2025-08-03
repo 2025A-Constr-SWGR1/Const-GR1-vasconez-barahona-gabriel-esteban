@@ -53,7 +53,8 @@ Basado en: [Clean Code JavaScript (Versión traducida)](https://github.com/ander
 1. Clonar el repositorio:
 
    ```bash
-   git clone <url-del-repo>
+   git clone https://github.com/2025A-Constr-SWGR1/Const-GR1-vasconez-barahona-gabriel-esteban.git
+   cd talleres/currency-converter
    ```
 
 2. Instalar dependencias:
