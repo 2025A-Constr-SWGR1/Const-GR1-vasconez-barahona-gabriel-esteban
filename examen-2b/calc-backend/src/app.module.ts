@@ -9,7 +9,7 @@ import { join } from 'path';
   imports: [
     CalcModule,
     ServeStaticModule.forRoot({
-      rootPath: join(__dirname, '..', 'public'), // apunta a la carpeta donde está index.html
+      rootPath: join(process.cwd(), 'public'), // apunta a la carpeta donde está index.html
     })
   ],
   controllers: [AppController],

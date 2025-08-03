@@ -24,7 +24,11 @@
     "@nestjs/core": "^11.0.1",
     "@nestjs/platform-express": "^11.0.1",
     "@nestjs/serve-static": "^5.0.3",
+    "david": "file:submodules/david-division/Talleres/taller-guias/2025a-swgr1-davc-division",
+    "eddy": "file:submodules/eddy-multiplicacion/Talleres/taller_guias/2025a-swgr1-ercg-multiplicacion",
+    "gabriel": "file:../../talleres/taller-guias/2025a-swgr1-gevb-suma",
     "reflect-metadata": "^0.2.2",
+    "ronny": "file:submodules/ronny-resta/talleres/taller-guias/2025a-swgr1-rdct-resta",
     "rxjs": "^7.8.1"
   },
   "devDependencies": {
@@ -37,6 +41,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^22.10.7",
     "@types/supertest": "^6.0.2",
+    "copyfiles": "^2.4.1",
     "eslint": "^9.18.0",
     "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-prettier": "^5.2.2",

@@ -4,3 +4,6 @@
 [submodule "examen-2b/calc-backend/submodules/ronny-resta"]
 	path = examen-2b/calc-backend/submodules/ronny-resta
 	url = https://github.com/2025A-Constr-SWGR1/Const-GR1-cartagena-toaquiza-ronny-damian.git
+[submodule "examen-2b/calc-backend/submodules/eddy-multiplicacion"]
+	path = examen-2b/calc-backend/submodules/eddy-multiplicacion
+	url = https://github.com/2025A-Constr-SWGR1/Const-GR1-castro-guaman-eddy-robinson.git
